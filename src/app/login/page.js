@@ -3,7 +3,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-export default function page() {
+export default function Login() {
   const { data: session } = useSession();
   return (
     <div className="w-full mx-auto text-center mt-16">
